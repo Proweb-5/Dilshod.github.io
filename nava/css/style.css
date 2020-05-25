@@ -1,0 +1,184 @@
+
+a, a:hover, a:focus{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-width: 320px;
+}
+img{
+    max-width: 100%;
+}
+.header{
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url(../img/bgfon.png);
+    min-height: 850px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.header .header-cover{
+    text-align: center;
+    margin-top: 230px;
+    color: #ffffff;
+    
+}
+.header .header-cover .title{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.header .header-cover .desc{
+  
+    font-size: 25px;
+    margin-bottom: 85px;
+    text-transform: uppercase;
+}
+.header .form{ 
+    max-width: 770px;
+    margin: auto;
+}
+.header .form-control{
+    height: 60px;
+}
+.header .form .btn{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.header-info{
+    position: absolute;
+    width: 100%;
+    bottom: -70px;
+}
+.header-info .container{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    padding: 25px 15px;
+    box-shadow: 0px 0px 30px 0px rgba(52, 52, 52, 0.15);
+  
+}
+.header-info .desc{
+    margin: 0;
+}
+.header-info .box:not(:first-child){
+   border-left: 1px solid #ccc;
+   height: 100%;
+}
+.header-info .box{
+    padding: 10px 0;
+}
+.header-info .count{
+    font-size: 30px;
+}
+.header-info .desc{
+    font-size: 18px;
+    color: #cccccc;
+}
+
+
+.section-explore{
+    padding: 175px 0 75px;
+}
+.section-explore .cards{
+     margin:80px 0;
+
+}
+.section-featured .cards{
+    margin: 90px 0;
+}
+.section-featured .card,
+.section-explore .card{
+    margin-bottom: 30px;
+}
+.section-featured .caption,
+.section-explore .caption{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: left;
+    padding: 30px;
+    color: #ffffff;
+
+}
+.section-featured .card .title,
+.section-explore .card .title{
+    margin-top: auto;
+}
+.section-featured .cards img,
+.section-explore .cards img{
+    filter: brightness(.8);
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+}
+.section-featured .caption .count,
+.section-explore .caption .count{
+    background-color: red;
+    align-self:flex-start;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.section-featured .caption .count i,
+.section-explore .caption .count i{
+    margin-right: 5px;
+}
+
+
+.section-boat{
+    background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(../img/boatfon.png);
+    text-align: center;
+    padding: 190px 0 155px;
+    color: #fff;
+    background-position: center;
+    clip-path: polygon(100% 0, 100% 90%, 0% 100%, 0 10%);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.section-boat .title{
+    
+    font-size: 65px;
+}
+.section-boat .desc{
+   
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 85px;
+}
+.section-boat .btn{
+    padding: 17px 40px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.section-featured {
+    padding: 100px 0 85px;
+}
+.section-featured-desc {
+    padding-top: 25px;
+}
+
+.footer{
+    padding: 60px 0 70px;
+    background-color: #404040; 
+    color: #ffffff;
+}
+.footer .social_link .link{
+    display: inline-block;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #717171;
+    border-radius: 50%;
+    margin-right: 18px;
+}
+.footer .social_link{
+    margin-top: 30px;
+}

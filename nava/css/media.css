@@ -1,0 +1,43 @@
+@media(min-width:1200px){
+    .header .navbar .container{
+        max-width: 1495px;
+    }
+}
+@media(max-width:992px){
+    .header .header-cover{
+     padding: 0 20px;
+    }
+}
+@media(max-width:768px){
+    .header .header-info{
+       bottom: -150px;
+       border-left: none;
+    }
+    /* .row > div  birinchi bolasi digani */
+    .header .header-info .row > div{
+       border: none;
+    }
+    .section-explore{
+         padding-top: 250px; 
+    }
+}
+@media(max-width:576px){
+    .header .header-info{
+        bottom: -220px;
+        padding: 0 20px;
+    }
+
+    .header .header-cover{
+        margin-top: 100px;
+    }
+    .header .form .btn{
+        font-size: 13px;
+    }
+    .header .form-control{
+        height: 45px;
+        font-size: 13px;
+    }
+    .section-explore .btn-outline-secondary{
+        font-size: 18px;
+    }
+}
