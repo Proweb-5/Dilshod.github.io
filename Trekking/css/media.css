@@ -1,0 +1,58 @@
+@media(max-width:1200px){
+ 
+   .section-man-wooman .section-man{
+       padding: 0 15px;
+   }
+}
+
+@media(max-width:992px){
+   .section-about-us .about-us{
+       padding: 0 15px;
+       margin: 0;
+   }
+   .section-about-us .about-us .title{
+      bottom: 209px;
+      left: 0;
+   }
+   .section-about-us .about-us .title:after
+   .section-about-us .about-us .title:before{
+      
+       border-top: 2px solid #000;
+       padding: 0 15px;
+       margin: 0 15px;
+   }
+   .section-about-us .about-us .desc{
+    padding: 55px 10px 50px; 
+}
+}
+
+@media(max-width:768px){
+  
+  .section-all-product .product1 input,
+  .section-all-product .product1 label{
+      
+      margin: 0;
+      display: block;
+      padding-left: 0;
+  }
+  .section-all-product {
+      padding-left: 0;
+      padding-right: 0;
+  }
+  .section-about-us .about-us .desc{
+    padding: 40px 10px 50px; 
+}
+}
+@media(max-width:576px){
+    .section-all-product .product1 .right{
+        right: 0;
+        display: flex;
+    }
+    .section-about-us .desc{
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+    .section-about-us .about-us .desc{
+        padding: 35px 10px 50px; 
+    }
+}
